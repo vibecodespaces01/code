@@ -129,7 +129,6 @@ Versão oficial
           - "8080:80"
         environment:
           MOODLE_DB_HOST: db
-          MOODLE_DATABASE_PORT_NUMBER: 3306
           MOODLE_DB_NAME: moodle
           MOODLE_DB_USER: usuariomoodle
           MOODLE_DB_PASSWORD: acessodbmoodle
