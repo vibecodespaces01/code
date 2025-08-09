@@ -75,7 +75,7 @@ Versão oficial
     
     # Instalar dependências
     RUN apt-get update && apt-get install -y \
-        unzip curl mysql-client git \
+        unzip curl default-mysql-client git \
         libpng-dev libjpeg-dev libfreetype6-dev \
         libzip-dev libxml2-dev libicu-dev libcurl4-openssl-dev \
         libonig-dev \
