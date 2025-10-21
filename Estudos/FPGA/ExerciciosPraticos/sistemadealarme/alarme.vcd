@@ -1,0 +1,52 @@
+$date
+	Thu Aug 21 14:22:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alarme_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#10000
+1$
+#20000
+0$
+1#
+#30000
+1!
+1$
+#40000
+0$
+0#
+1"
+#50000
+1$
+#60000
+0$
+1#
+#70000
+1$
+#80000

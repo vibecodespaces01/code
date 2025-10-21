@@ -1,0 +1,41 @@
+$date
+	Thu Aug 21 12:35:04 2025
+	$end
+	$version
+		Icarus Verilog
+		$end
+		$timescale
+			100ps
+			$end
+			$scope module inverter_switch_tb $end
+			$var wire 1 ! f $end
+			$var reg 1 " x $end
+			$scope module G0 $end
+			$var wire 1 ! f $end
+			$var wire 1 # gnd $end
+			$var wire 1 $ vdd $end
+			$var wire 1 " x $end
+			$upscope $end
+			$upscope $end
+			$enddefinitions $end
+			$comment Show the parameter values. $end
+			$dumpall
+			$end
+			#0
+			$dumpvars
+			1$
+			0#
+			0"
+			1!
+			$end
+			#50
+			0!
+			1"
+			#150
+			1!
+			0"
+			#200
+			0!
+			1"
+			#300
+			

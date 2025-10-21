@@ -1,0 +1,43 @@
+$date
+	Thu Aug 21 12:06:42 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module flip_flop_tb $end
+$var wire 1 ! qnot $end
+$var wire 1 " q $end
+$var reg 1 # a0 $end
+$var reg 1 $ b0 $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " q $end
+$var wire 1 ! qnot $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+1"
+1!
+$end
+#20000
+0!
+1$
+#30000
+0"
+1!
+0$
+1#
+#40000
+1$
+#50000

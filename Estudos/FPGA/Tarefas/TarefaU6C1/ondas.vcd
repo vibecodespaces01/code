@@ -1,0 +1,125 @@
+$date
+  Mon Oct  6 00:57:03 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module porta_local_pkg $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_fsm_porta $end
+$var reg 1 ! s_clk $end
+$var reg 1 " s_rst_n $end
+$var reg 1 # s_sensor $end
+$var reg 1 $ s_fechar_manual $end
+$var reg 1 % s_fim_curso_aberta $end
+$var reg 1 & s_fim_curso_fechada $end
+$var reg 1 ' s_motor_abrir $end
+$var reg 1 ( s_motor_fechar $end
+$comment s_debug_estado is not handled $end
+$var reg 3 ) s_debug_estado_vcd[2:0] $end
+$scope module uut $end
+$var reg 1 * clk $end
+$var reg 1 + rst_n $end
+$var reg 1 , sensor $end
+$var reg 1 - fechar_manual $end
+$var reg 1 . fim_curso_aberta $end
+$var reg 1 / fim_curso_fechada $end
+$var reg 1 0 motor_abrir $end
+$var reg 1 1 motor_fechar $end
+$comment debug_estado is not handled $end
+$comment estado_atual is not handled $end
+$comment proximo_estado is not handled $end
+$var integer 32 2 contador $end
+$var reg 1 3 timer_expirou $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+b001 )
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+b0 2
+03
+#10000000
+1!
+1*
+#20000000
+0!
+0*
+#30000000
+1!
+1*
+#40000000
+0!
+0*
+#50000000
+1!
+1*
+#60000000
+0!
+0*
+#70000000
+1!
+1*
+#80000000
+0!
+0*
+#90000000
+1!
+1*
+#100000000
+0!
+1"
+0*
+1+
+#110000000
+1!
+1*
+#120000000
+0!
+1#
+0*
+1,
+#130000000
+1!
+1'
+b010 )
+1*
+10
+#140000000
+0!
+0#
+0*
+0,
+#150000000
+1!
+1*
+#160000000
+0!
+0*
+#170000000
+1!
+1*

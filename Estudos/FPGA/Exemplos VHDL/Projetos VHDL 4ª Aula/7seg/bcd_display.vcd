@@ -1,0 +1,95 @@
+$date
+  Wed Sep  3 14:39:15 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_bcd_7segmentos $end
+$var reg 4 ! bcd_tb[3:0] $end
+$var reg 7 " seg_tb[6:0] $end
+$scope module uut $end
+$var reg 4 # bcd[3:0] $end
+$var reg 7 $ seg[6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b1001000 "
+b0000 #
+b1001000 $
+#10000000
+b0001 !
+b1001001 "
+b0001 #
+b1001001 $
+#20000000
+b0010 !
+b1010010 "
+b0010 #
+b1010010 $
+#30000000
+b0011 !
+b1001001 "
+b0011 #
+b1001001 $
+#40000000
+b0100 !
+b1010011 "
+b0100 #
+b1010011 $
+#50000000
+b0101 !
+b1001100 "
+b0101 #
+b1001100 $
+#60000000
+b0110 !
+b1000001 "
+b0110 #
+b1000001 $
+#70000000
+b0111 !
+b1011001 "
+b0111 #
+b1011001 $
+#80000000
+b1000 !
+b1001110 "
+b1000 #
+b1001110 $
+#90000000
+b1001 !
+b1000101 "
+b1001 #
+b1000101 $
+#100000000
+b1010 !
+b0000000 "
+b1010 #
+b0000000 $
+#110000000
+b1011 !
+b1011 #
+#120000000
+b1100 !
+b1100 #
+#130000000
+b1101 !
+b1101 #
+#140000000
+b1110 !
+b1110 #
+#150000000
+b1111 !
+b1111 #
+#160000000
